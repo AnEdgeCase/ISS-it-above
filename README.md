@@ -154,6 +154,6 @@ This project is licensed under the MIT License.
 **Jason Anderson**  
 _Computer Science Student_  
 _Interests: Programming • Cybersecurity • Data Science_  
-GitHub: [@MapNotIncluded](https://github.com/MapNotIncluded)
+GitHub: [@AnEdgeCase](https://github.com/MapNotIncluded)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
