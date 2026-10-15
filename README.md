@@ -1,12 +1,13 @@
 # 🛰️ ISS It Above?
+
 ### ISS Tracker & Notification System
 
 ---
 
 A Python program that tracks the International Space Station (ISS) and sends email notifications when it is overhead — but only if the conditions are right: the sky is clear, and the sun has set.
 
-> *“Somewhere, something incredible is waiting to be known.”*  
-> — *Carl Sagan*
+> _“Somewhere, something incredible is waiting to be known.”_  
+> — _Carl Sagan_
 
 ---
 
@@ -62,7 +63,7 @@ The program is designed for extensibility and is especially useful for space ent
 ### 1️⃣ Clone the Repository
 
 ```bash
-  git clone https://github.com/MapNotIncluded/ISS-it-above 
+  git clone https://github.com/AnEdgeCase/ISS-it-above
   cd ISS-it-above
 ```
 
@@ -73,7 +74,9 @@ The program is designed for extensibility and is especially useful for space ent
 ```
 
 ### 3️⃣ Create a .env File
+
 Inside your project root, create a `.env` file and add the following:
+
 ```
 ISS_API=https://api.open-notify.org/iss-now.json
 SUNRISE_SUNSET_API=https://api.sunrise-sunset.org/json
@@ -87,11 +90,13 @@ APP_PASSWORD=your_email_app_password
 ### 4️⃣ Create a `users.json` File
 
 Each user entry must include:
+
 - A `Name`
 - An `Email` address
 - A full `Address` in the format: `Suburb, City, Country`
 
 Example:
+
 ```json
 [
   {
@@ -106,12 +111,15 @@ Example:
   }
 ]
 ```
+
 📌 Ensure the address has exactly three components.
 
 ### 5️⃣ Run the Tracker
+
 ```bash
 python3 iss_track.py
 ```
+
 The tracker will periodically assess each user's sky visibility and notify them via email when the ISS is observable.
 
 ---
@@ -154,6 +162,6 @@ This project is licensed under the MIT License.
 **Jason Anderson**  
 _Computer Science Student_  
 _Interests: Programming • Cybersecurity • Data Science_  
-GitHub: [@AnEdgeCase](https://github.com/MapNotIncluded)
+GitHub: [@AnEdgeCase](https://github.com/AnEdgeCase)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
